@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>序列統計</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    textarea {
+      width: 300px;
+      height: 200px;
+      resize: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="color:cornflowerblue;">序列統計</h1>
+    <form action="/sent_sequence" method="POST">
+      <textarea name="sequence" placeholder="輸入多行字串"></textarea><br>
+      <input type="submit" value="提交">
+    </form>
+  </div>
+</body>
+</html>
+<!-- <a href="/get_image" target="_blank">Link</a> -->
